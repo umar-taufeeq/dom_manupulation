@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    background: #f4f4f4;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+  }
+
+  .card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #eee;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    color: #333;
+  }
+
+  .card .info {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .status-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background-color: #fce4e4;
+    color: #e74c3c;
+    margin-bottom: 12px;
+  }
+  .btn {
+    margin-top: 12px;
+    padding: 6px 14px;
+    border: none;
+    background-color: #444;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  
+}
+
+  .btn:hover {
+    background-color: #666;
+  }
